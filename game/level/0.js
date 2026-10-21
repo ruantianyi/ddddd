@@ -17,7 +17,7 @@ oS.Init({
 			//      a + "SelectorScreenSurvival_" + b + ".png",
 			a + "SelectorScreen_Almanac_" + b + ".png",
 			a + "Logo.png",
-			b + "LawnCleaner.png",
+			a + "LawnCleaner.png",
 			a + "ZombiesWon.webp",
 			a + "LargeWave.gif",
 			a + "FinalWave.gif",
