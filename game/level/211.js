@@ -83,7 +83,7 @@ oS.Init(
 		CanSelectCard: 1,
 		Coord: 2,
 		DKind: 0,
-		LevelName: "常青之塔 61层",
+		LevelName: "Evergreen Tower - Floor 61",
 		LvlEName: 211,
 		SunNum: 9900,
 		CanSelectCard: 1,

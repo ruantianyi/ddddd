@@ -3,7 +3,7 @@ oS.Init({
 		a = "images/interface/";
 		return [ShadowPNG, a + "TAWIN.png"];
 	})(),
-	LevelName: "胜利界面",
+	LevelName: "Victory",
 	LevelEName: 251,
 	ShowScroll: 1,
 	LoadMusic: "pvzs",

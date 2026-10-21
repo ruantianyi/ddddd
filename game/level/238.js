@@ -91,7 +91,7 @@ oS.Init(
 			CustomSpecial(oCleaner, 5, -1);
 		},
 		DKind: 1,
-		LevelName: "常青之塔 88层",
+		LevelName: "Evergreen Tower - Floor 88",
 		LvlEName: 237,
 		SunNum: 9900,
 		CanSelectCard: 1,

@@ -77,7 +77,7 @@ oS.Init(
 		})(),
 		backgroundImage: "images/interface/background3.webp",
 		CanSelectCard: 1,
-		LevelName: "常青之塔 15层",
+		LevelName: "Evergreen Tower - Floor 15",
 		LvlEName: 165,
 		SunNum: 4500,
 		Coord: 2,

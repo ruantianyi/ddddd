@@ -75,7 +75,7 @@ oS.Init(
 		})(),
 		backgroundImage: "images/interface/backgroundwall2.jpg",
 		CanSelectCard: 1,
-		LevelName: "常青之塔 38层",
+		LevelName: "Evergreen Tower - Floor 38",
 		LvlEName: 188,
 		SunNum: 8e3,
 		LF: [0, 3, 3, 3, 3, 3, 3],

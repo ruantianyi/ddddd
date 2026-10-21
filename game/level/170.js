@@ -76,7 +76,7 @@ oS.Init(
 		})(),
 		backgroundImage: "images/interface/background4.jpg",
 		CanSelectCard: 1,
-		LevelName: "常青之塔 20层",
+		LevelName: "Evergreen Tower - Floor 20",
 		LvlEName: 170,
 		SunNum: 5e3,
 		DKind: 0,
@@ -105,7 +105,7 @@ oS.Init(
 							},
 							[]
 						);
-						innerText(c, "天哪,不知不觉已经到20层了。");
+						innerText(c, "Holy guacamole! We already made it to Floor 20!");
 						break;
 					case 1:
 						PlaySound2("crazydavelong" + Math.floor(1 + Math.random() * 3));
@@ -121,7 +121,7 @@ oS.Init(
 							},
 							[]
 						);
-						innerText(c, "难度你也是知道的。");
+						innerText(c, "You already know how rough it gets!");
 						break;
 					case 2:
 						PlaySound2("crazydavelong" + Math.floor(1 + Math.random() * 3));
@@ -137,7 +137,7 @@ oS.Init(
 							},
 							[]
 						);
-						innerText(c, "只是,这次你可能没有那么顺利");
+						innerText(c, "Only this time... things might not go so smoothly!");
 						break;
 					case 3:
 						PlaySound2("crazydaveshort2");
@@ -153,7 +153,7 @@ oS.Init(
 							},
 							[]
 						);
-						innerText(c, "祝你好运，不要被僵尸吃了!");
+						innerText(c, "Good luck, and keep those zombies away from your brains!");
 						break;
 					case 4:
 						$("dDave").src = "images/interface/Dave2.gif";

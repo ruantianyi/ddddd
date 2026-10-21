@@ -104,7 +104,7 @@ oS.Init(
 		CanSelectCard: 1,
 		LF: [0, 1, 1, 2, 2, 1, 1],
 		DKind: 0,
-		LevelName: "常青之塔 100层",
+		LevelName: "Evergreen Tower - Floor 100",
 		LvlEName: 250,
 		SunNum: 9900,
 		CanSelectCard: 1,
@@ -144,7 +144,7 @@ oS.Init(
 							},
 							[]
 						);
-						innerText(c, "咳咳，我们已经到达这座塔的顶峰了");
+						innerText(c, "*Cough cough* We've reached the pinnacle of this tower!");
 						break;
 					case 1:
 						PlaySound2("crazydavelong" + Math.floor(1 + Math.random() * 3));
@@ -160,7 +160,7 @@ oS.Init(
 							},
 							[]
 						);
-						innerText(c, "你最好边打边默念：我不会输");
+						innerText(c, "You'd better keep chanting: 'I will not lose! I will not lose!'");
 						break;
 					case 2:
 						PlaySound2("crazydavelong" + Math.floor(1 + Math.random() * 3));
@@ -176,7 +176,7 @@ oS.Init(
 							},
 							[]
 						);
-						innerText(c, "尽管这是徒劳的祈祷");
+						innerText(c, "Even if it's totally futile against this boss!");
 						break;
 					case 3:
 						PlaySound2("crazydavelong" + Math.floor(1 + Math.random() * 3));
@@ -192,7 +192,7 @@ oS.Init(
 							},
 							[]
 						);
-						innerText(c, "当然，我还是祝你好运");
+						innerText(c, "Still, I'm rooting for you! Go get 'em!");
 						break;
 					case 4:
 						$("dDave").src = "images/interface/Dave2.gif";

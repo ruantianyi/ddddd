@@ -20,7 +20,7 @@ oS.Init({
 			a + "TA101.png",
 		];
 	})(),
-	LevelName: "魔塔界面",
+	LevelName: "Tower Lobby",
 	LevelEName: 150,
 	ShowScroll: 1,
 	LoadMusic: "plantsgarden",

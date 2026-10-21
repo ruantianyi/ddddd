@@ -76,7 +76,7 @@ oS.Init(
 		})(),
 		backgroundImage: "images/interface/background3.webp",
 		CanSelectCard: 1,
-		LevelName: "常青之塔 11层",
+		LevelName: "Evergreen Tower - Floor 11",
 		LvlEName: 161,
 		SunNum: 4e3,
 		Coord: 2,
@@ -104,7 +104,7 @@ oS.Init(
 							},
 							[]
 						);
-						innerText(c, "僵尸越来越多了。");
+						innerText(c, "The zombies are piling up faster than ever!");
 						break;
 					case 1:
 						PlaySound2("crazydavelong" + Math.floor(1 + Math.random() * 3));
@@ -120,7 +120,7 @@ oS.Init(
 							},
 							[]
 						);
-						innerText(c, "不过你很幸运。");
+						innerText(c, "Lucky for you, I got something special!");
 						break;
 					case 2:
 						PlaySound2("crazydavelong" + Math.floor(1 + Math.random() * 3));
@@ -136,7 +136,7 @@ oS.Init(
 							},
 							[]
 						);
-						innerText(c, "你获得了激光蚕豆!");
+						innerText(c, "You got Laser Broad Bean!");
 						break;
 					case 3:
 						PlaySound2("crazydaveshort2");
@@ -152,7 +152,7 @@ oS.Init(
 							},
 							[]
 						);
-						innerText(c, "任何僵尸都躲不过他的天眼~");
+						innerText(c, "No zombie can escape its all-seeing sky beam!");
 						break;
 					case 4:
 						PlaySound2("crazydavelong" + Math.floor(1 + Math.random() * 3));
@@ -168,7 +168,7 @@ oS.Init(
 							},
 							[]
 						);
-						innerText(c, "你觉得他太贵？面对一波一波得僵尸，你已经没有选择了!");
+						innerText(c, "Too expensive, you say? With these massive zombie hordes, you got no choice!");
 						break;
 					case 5:
 						$("dDave").src = "images/interface/Dave2.gif";

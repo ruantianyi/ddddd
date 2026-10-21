@@ -79,7 +79,7 @@ oS.Init(
 		})(),
 		backgroundImage: "images/interface/backgroundX1.jpg",
 		CanSelectCard: 1,
-		LevelName: "常青之塔 41层",
+		LevelName: "Evergreen Tower - Floor 41",
 		LvlEName: 191,
 		SunNum: 9900,
 		LF: [0, 2, 3, 3, 2, 2, 0],
@@ -117,7 +117,7 @@ oS.Init(
 							},
 							[]
 						);
-						innerText(c, "伙计，欢迎来到常青之塔41层。");
+						innerText(c, "Welcome to Floor 41 of the Evergreen Tower, neighbor!");
 						break;
 					case 1:
 						PlaySound2("crazydavelong" + Math.floor(1 + Math.random() * 3));
@@ -133,7 +133,7 @@ oS.Init(
 							},
 							[]
 						);
-						innerText(c, "这里是常青之塔的一个重要分水岭。");
+						innerText(c, "This is where the real madness begins!");
 						break;
 					case 2:
 						PlaySound2("crazydavelong" + Math.floor(1 + Math.random() * 3));
@@ -149,7 +149,7 @@ oS.Init(
 							},
 							[]
 						);
-						innerText(c, "这里会出现各种地形限制，并且每隔五关为双boss");
+						innerText(c, "You'll face crazy terrain restrictions, plus dual bosses every 5 floors!");
 						break;
 					case 3:
 						PlaySound2("crazydaveshort2");
@@ -165,7 +165,7 @@ oS.Init(
 							},
 							[]
 						);
-						innerText(c, "祝你好运!");
+						innerText(c, "Hold onto your pots and pans! Good luck!");
 						break;
 					case 4:
 						$("dDave").src = "images/interface/Dave2.gif";

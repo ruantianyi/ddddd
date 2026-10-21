@@ -66,7 +66,7 @@ oS.Init(
 		})(),
 		backgroundImage: "images/interface/background1.jpg",
 		CanSelectCard: 1,
-		LevelName: "常青之塔 1层",
+		LevelName: "Evergreen Tower - Floor 1",
 		LvlEName: 151,
 		SunNum: 3e3,
 		LargeWaveFlag: { 10: $("imgFlag2") },
@@ -90,7 +90,7 @@ oS.Init(
 							},
 							[]
 						);
-						innerText(c, "欢迎来到常青之塔");
+						innerText(c, "Welcome to the Evergreen Tower!");
 						break;
 					case 1:
 						PlaySound2("crazydavelong" + Math.floor(1 + Math.random() * 3));
@@ -106,7 +106,7 @@ oS.Init(
 							},
 							[]
 						);
-						innerText(c, "这里可是危机四伏,你必须一层一层的挑战");
+						innerText(c, "Danger lurks everywhere here! You gotta climb it floor by floor!");
 						break;
 					case 2:
 						PlaySound2("crazydavelong" + Math.floor(1 + Math.random() * 3));
@@ -122,7 +122,7 @@ oS.Init(
 							},
 							[]
 						);
-						innerText(c, "难度也会随着层数上涨!");
+						innerText(c, "And it gets crazier and harder the higher you go!");
 						break;
 					case 3:
 						PlaySound2("crazydavelong" + Math.floor(1 + Math.random() * 3));
@@ -138,7 +138,7 @@ oS.Init(
 							},
 							[]
 						);
-						innerText(c, "祝你挑战愉快，别丢掉脑子哈!");
+						innerText(c, "Have fun climbing, and don't lose your brains! Wabby wabbo!");
 						break;
 					case 4:
 						$("dDave").src = "images/interface/Dave2.gif";

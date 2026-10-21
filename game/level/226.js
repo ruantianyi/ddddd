@@ -79,7 +79,7 @@ oS.Init(
 		backgroundImage: "images/interface/background2.jpg",
 		CanSelectCard: 1,
 		DKind: 0,
-		LevelName: "常青之塔 76层",
+		LevelName: "Evergreen Tower - Floor 76",
 		LvlEName: 226,
 		SunNum: 9900,
 		CanSelectCard: 1,
@@ -113,7 +113,7 @@ oS.Init(
 							},
 							[]
 						);
-						innerText(c, "伙计，离一百层越来越近了!");
+						innerText(c, "Whoa, neighbor! We're closing in on Floor 100!");
 						break;
 					case 1:
 						PlaySound2("crazydavelong" + Math.floor(1 + Math.random() * 3));
@@ -129,7 +129,7 @@ oS.Init(
 							},
 							[]
 						);
-						innerText(c, "难度上升也越来越快了");
+						innerText(c, "The difficulty is ramping up super fast now!");
 						break;
 					case 2:
 						PlaySound2("crazydavelong" + Math.floor(1 + Math.random() * 3));
@@ -145,7 +145,7 @@ oS.Init(
 							},
 							[]
 						);
-						innerText(c, "至少现在雾已经退去了，加油吧!");
+						innerText(c, "At least the fog cleared away! Give 'em all you got!");
 						break;
 					case 3:
 						$("dDave").src = "images/interface/Dave2.gif";

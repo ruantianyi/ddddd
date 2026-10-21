@@ -81,7 +81,7 @@ oS.Init(
 		backgroundImage: "images/interface/background2.jpg",
 		CanSelectCard: 1,
 		DKind: 0,
-		LevelName: "常青之塔 80层",
+		LevelName: "Evergreen Tower - Floor 80",
 		LvlEName: 230,
 		SunNum: 9900,
 		CanSelectCard: 1,

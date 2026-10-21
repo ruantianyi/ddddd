@@ -67,7 +67,7 @@ oS.Init(
 		})(),
 		backgroundImage: "images/interface/background1.jpg",
 		CanSelectCard: 1,
-		LevelName: "常青之塔 5层",
+		LevelName: "Evergreen Tower - Floor 5",
 		LvlEName: 155,
 		SunNum: 3500,
 		LargeWaveFlag: { 10: $("imgFlag2") },

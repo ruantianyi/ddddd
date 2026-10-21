@@ -5,7 +5,7 @@ oS.Init(
 		PicArr: ["images/interface/background2.jpg", "images/interface/trophy.png"],
 		backgroundImage: "images/interface/background2.jpg",
 		CanSelectCard: 0,
-		LevelName: "常青之塔 101层",
+		LevelName: "Evergreen Tower - Floor 101",
 		LvlEName: "252",
 		LargeWaveFlag: {
 			10: $("imgFlag3"),
