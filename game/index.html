@@ -1152,6 +1152,33 @@
 			);
 		</script>
 		<script>
+			// Local/offline copies are legitimate. The obfuscated script above shows a
+			// full-screen "Different Website Warning" for any origin that is not in its
+			// allow-list. Its allow-list only contains the literal "localhost", so local
+			// play via file://, 127.0.0.1 or a LAN address leaves that overlay (z-index
+			// 999999) covering the game and the PLAY! start button, making clicks do nothing.
+			(function () {
+				const host = location.hostname;
+				const isLocal =
+					location.protocol === "file:" ||
+					host === "localhost" ||
+					host === "127.0.0.1" ||
+					host === "::1" ||
+					host === "[::1]" ||
+					host.endsWith(".local") ||
+					/^10\./.test(host) ||
+					/^192\.168\./.test(host) ||
+					/^172\.(1[6-9]|2\d|3[01])\./.test(host) ||
+					/^169\.254\./.test(host);
+				if (isLocal) {
+					const warning = document.getElementById("stolen-warning");
+					if (warning) {
+						warning.style.display = "none";
+					}
+				}
+			})();
+		</script>
+		<script>
 			delete window.abxz;
 			Object.defineProperty(window, "abxz", { get: () => undefined, set: () => {} });
 		</script>
